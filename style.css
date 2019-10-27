@@ -1,0 +1,35 @@
+header {
+  width: 100%;
+  border-bottom: 2px solid #cccccc;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  width: 960px;
+}
+
+.navbar-nav {
+  align-items: flex-end;
+}
+
+.nav-heading {
+  color: #ffffff;
+  background-color: #4aaaa5;
+  width: 190px;
+  float: left;
+  padding: 31px 30px 32px 30px;
+  margin: 0px 0px 0px 0px;
+  font-size: 20px;
+
+  font-family: "Georgia", Times, Times New Roman, serif;
+}
+
+.main-container {
+  width: 100%;
+  background-image: url("../images/cork-board.png");
+  height: 600px;
+}
