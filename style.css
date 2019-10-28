@@ -6,6 +6,9 @@ header {
   border-bottom: 2px solid #cccccc;
 }
 
+body {
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+}
 footer {
   text-align: center;
   color: white;
@@ -44,7 +47,6 @@ footer {
 .main-container {
   width: 100%;
   background-image: url("../images/cork-board.png");
-  height: 600px;
 }
 
 p.main-item {
@@ -75,4 +77,5 @@ img.main-item {
   top: 75%;
   text-align: center;
   transform: translate(-50%, -50%);
+  background-color: #4aaaa5;
 }
