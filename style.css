@@ -79,3 +79,14 @@ img.main-item {
   transform: translate(-50%, -50%);
   background-color: #4aaaa5;
 }
+
+/* Contact page */
+#submit-btn {
+  background-color: #4aaaa5;
+  border-color: #666666;
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+label {
+  color: #666666;
+}
