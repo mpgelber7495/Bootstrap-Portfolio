@@ -1,6 +1,19 @@
+html {
+  height: 100%;
+}
 header {
   width: 100%;
   border-bottom: 2px solid #cccccc;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  background-color: #666666;
+  margin: 0px 0px 0px 0px;
+  padding: 13px 0px 2px 0px;
+  border-top: 8px solid #4aaaa5;
+  flex-shrink: 0;
 }
 
 .nav-container {
@@ -19,11 +32,11 @@ header {
 .nav-heading {
   color: #ffffff;
   background-color: #4aaaa5;
-  width: 190px;
+  width: 220px;
   float: left;
   padding: 31px 30px 32px 30px;
   margin: 0px 0px 0px 0px;
-  font-size: 20px;
+  font-size: 23px;
 
   font-family: "Georgia", Times, Times New Roman, serif;
 }
@@ -32,4 +45,34 @@ header {
   width: 100%;
   background-image: url("../images/cork-board.png");
   height: 600px;
+}
+
+p.main-item {
+  text-align: left;
+  line-height: 1.7;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+img.main-item {
+  margin: 0px 15px 0px 25px;
+}
+
+.main-content-header {
+  text-align: left;
+  margin: 20px 25px 15px 25px;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  color: #4aaaa5;
+  border-bottom: 2px solid #cccccc;
+  font-size: 23px;
+}
+
+/* Portfolio page */
+.project-name {
+  position: absolute;
+  left: 50%;
+  top: 75%;
+  text-align: center;
+  transform: translate(-50%, -50%);
 }
