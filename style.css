@@ -42,7 +42,7 @@ footer {
 
 .main-container {
   width: 100%;
-  background-image: url("../images/cork-board.png");
+  background-image: url("./images/cork-board.png");
 }
 
 p.main-item {
